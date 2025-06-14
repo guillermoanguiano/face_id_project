@@ -37,7 +37,6 @@ export const AccessView = ({
         />
       </div>
 
-      {/* Overlay de estado */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         {accessStatus === "granted" && (
           <div className="bg-green-500/90 rounded-full p-8 animate-pulse">
